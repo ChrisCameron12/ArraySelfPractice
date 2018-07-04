@@ -55,3 +55,9 @@ public class Main {
 
     }
 }
+
+int itemSize = 5;
+int[][] boxCapacity = {{10}, {15}, {20}};
+char[][] box = new char[boxCapacity];
+
+System.out.println(Arrays.toString(box));
